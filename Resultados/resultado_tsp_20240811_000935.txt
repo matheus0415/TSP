@@ -1,0 +1,4 @@
+Metodo: Algoritmo genético
+Melhor percurso encontrado:
+3 -> 4 -> 1 -> 2 -> 0
+Distância total: 19.0

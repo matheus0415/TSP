@@ -1,6 +1,7 @@
 import numpy as np
 import random
 from loadFile import carregar_matriz_distancias
+from saveResult import salvar_resultado
 
 def calcular_distancia_total(matriz_distancias, percurso):
     """
@@ -139,6 +140,6 @@ if matriz_distancias is not None:
     print(melhor_percurso)
     print(f"Distância total: {melhor_distancia}")
     pasta_destino = 'Resultados'
-    salvar_resultado(melhor_percurso, melhor_distancia, pasta_destino)
+    salvar_resultado( 'Algoritmo genético',melhor_percurso, melhor_distancia, pasta_destino)
 else:
     print("Não foi possível carregar a matriz de distâncias.")
