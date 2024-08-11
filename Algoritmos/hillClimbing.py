@@ -1,5 +1,6 @@
 import numpy as np
 import random
+from loadFile import carregar_matriz_distancias 
 
 def calcular_distancia_total(matriz_distancias, percurso):
     """
